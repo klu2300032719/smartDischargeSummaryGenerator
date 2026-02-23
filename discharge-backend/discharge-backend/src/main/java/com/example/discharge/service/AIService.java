@@ -17,7 +17,7 @@ public class AIService {
 
     public AIService(
             WebClient.Builder webClientBuilder,
-            @Value("${google.translate.api.key}") String googleApiKey) {
+            @Value("${google.api.key}") String googleApiKey) {
         this.webClient = webClientBuilder.build();
         this.googleApiKey = googleApiKey;
     }

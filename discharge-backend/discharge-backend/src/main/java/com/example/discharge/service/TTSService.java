@@ -9,7 +9,7 @@ import java.util.*;
 @Service
 public class TTSService {
 
-    @Value("${google.translate.api.key}")
+    @Value("${google.api.key}")
     private String apiKey;
 
     private final WebClient webClient = WebClient.create();
